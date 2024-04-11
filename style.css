@@ -21,26 +21,65 @@
 
 }
 
-.left{
+.left {
     background-image: url(/images/bgimg2.jpg);
     width: 35vw;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    display: flex;
+    flex-direction: column;
     /* font-family: Norse-Bold, sans-serif; */
-    
+
 
 }
+
+a {
+    color: white;
+}
+
+.forFooter p{
+    font-size: 12px;
+    text-align: center;
+}
+
+.forImage{
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.forFooter{
+    height: 60vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 35vh;
+    
+}
+
+.semi-transparent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+.semi-transparent h1{
+    font-family: 'Norse-Bold', sans-serif;
+}
+
 .right {
     display: flex;
     flex-direction: column;
     /* width: 50vw; */
     background-color: #fafafa;
     width: 65vw
-    
 }
 
-.first{
+.first {
     height: 25vh;
     display: flex;
     justify-content: flex-start;
@@ -49,12 +88,15 @@
     margin-bottom: 5%;
 }
 
-.second{
+.second {
     height: 35vh;
     background-color: white;
-    
+    align-items: center;
+    box-shadow: 2px 5px #E5E7EB;
+
 }
-.second h3{
+
+.second h3 {
     margin-left: 5%;
     margin-bottom: 25px;
     margin-top: 10px;
@@ -66,7 +108,7 @@
     width: 60%;
     justify-content: space-between;
     margin-left: 5%;
-    
+
 
 }
 
@@ -77,37 +119,37 @@
     flex-direction: column;
 } */
 
-.form-div{
+.form-div {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    
+
 }
 
-input{
+input {
     width: 200px;
     border: 1px solid #E5E7EB;
     height: 25px;
     border-radius: 5px;
 }
 
-input:focus{
+input:focus {
     border: 1px solid rgb(0, 0, 255);
     outline: none;
 
 }
 
-input:invalid{
+input:invalid {
     border: 1px solid red;
     outline: none;
 }
 
-label{
+label {
     font-size: 10px;
     color: #575757;
 }
 
-#error{
+#error {
     color: red;
     font-size: 10px;
     margin: 1px;
@@ -122,21 +164,22 @@ label{
     width: 150px;
     font-weight: bolder;
     font-size: small;
+    box-shadow: 2px 5px #E5E7EB;
 }
 
-.third{
-    margin-left: 50px;
-    margin-top: 25px;
-   
-}
-
-.hyperlink{
+.third {
     margin-left: 50px;
     margin-top: 25px;
 
 }
 
-a{
+.hyperlink {
+    margin-left: 50px;
+    margin-top: 25px;
+
+}
+
+.hyperlink a {
     color: #596D48;
     text-decoration: none;
     font-weight: bold;
