@@ -120,10 +120,24 @@ label{
     border-radius: 10px;
     height: 40px;
     width: 150px;
+    font-weight: bolder;
+    font-size: small;
 }
 
 .third{
     margin-left: 50px;
     margin-top: 25px;
    
+}
+
+.hyperlink{
+    margin-left: 50px;
+    margin-top: 25px;
+
+}
+
+a{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
 }
