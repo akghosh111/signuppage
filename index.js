@@ -1,1 +1,3 @@
-console.log("hello this is Anukiran from console")
+document.addEventListener("DOMContentLoaded", function(){
+    console.log("Hi");
+})

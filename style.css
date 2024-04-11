@@ -54,12 +54,18 @@
     background-color: white;
     
 }
+.second h3{
+    margin-left: 5%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
 
 .form-main-div {
     display: flex;
     flex-direction: row;
     width: 60%;
     justify-content: space-between;
+    margin-left: 5%;
     
 
 }
