@@ -11,20 +11,55 @@
 }
 
 
-h1 {
-    font-family: Norse-Bold, sans-serif;
-}
+
 
 .main {
     display: flex;
     flex-direction: row;
     width: 100vw;
+    height: 100vh;
 
 }
 
-.left,
+.left{
+    background-image: url(/images/bgimg2.jpg);
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* font-family: Norse-Bold, sans-serif; */
+    
+
+}
 .right {
     display: flex;
-    justify-content: center;
-    width: 50vw;
+    flex-direction: column;
+    /* width: 50vw; */
+    background-color: #fafafa;
+    width: 65vw
+    
+}
+
+.first{
+    height: 40vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+.second{
+    height: 30vh;
+    background-color: white;
+}
+
+.form-main-div {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.third{
+   
 }
